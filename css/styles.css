@@ -1,3 +1,7 @@
+.form {
+  background-color: rgba(206, 169, 110, 0.644);
+}
+
 .productos {
   display: flex;
   margin: 5%;
