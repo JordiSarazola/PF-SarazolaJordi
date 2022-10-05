@@ -18,7 +18,7 @@
 <body>
     <header class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="../index.html"><img src="../assets/Img/logo.jpg" alt=""
+            <a class="navbar-brand" href="../index.html"><img src="../assets/Img/logo.jpg" alt="Colibri multicolor"
                     class="w-50 rounded-circle" loading="lazy"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,13 +30,13 @@
                         <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./informacion.html">Informacion</a>
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./pages/productos.html">Productos</a>
+                        <a class="nav-link" aria-current="page" href="./informacion.html">Informacion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="./productos.html">Productos</a>
                     </li>
 
                 </ul>
@@ -48,43 +48,36 @@
 
 
     <main>
-        <section class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                    <img src="../assets/Img/canela.jpg" alt="" class="w-100 h-100 rounded my-5">
-                </div>
-
-                <div class="col-12 col-md-6 d-flex flex-column my-5 justify-content-center">
-                    <h1 class="text-center text-lg-start fw-bold order-lg-first display-1">Ecológicas, duraderas e
-                        reutilizables</h1>
-
-                        <p class="text-center text-md-start mt-5 f-body">La cera de soja es un derivado de plantas, por lo tanto es una fuente ilimitada, renovable y biodegradable, lo que la convierte en un producto sostenible.</p> 
-
-                    <p class="text-center text-md-start f-body"> Su combustion se produce considerablemente lento,
-                        haciendo que
-                        las velas duren hasta 5 veces mas que velas de otros materiales.
-                    </p>
-
-                    <p class="text-center text-md-start f-body">Posee un bajo punto de fusión por lo cual al calentarse
-                        se transforma en un tibio aceite que no quema e incluso es utilizado para hacer suaves masajes.
-                    </p>
-
-                    <p class="text-center text-md-start f-body"> Ademas su aceite puede ser
-                        reutilizado en tecnicas de masajes terapeuticos, haciendola aun mas productiva y rentable.</p>
-                    <p class="text-center text-md-start f-body"> Se suelen añadir distintas esencias obteniendo los
-                        beneficios sanadores y estimulantes que ellas proporcionan a través del aroma y de la absorción
-                        de la piel con masajes.
-                    </p>
-
-                    <div class="text-center text-md-start my-5"><a href="./informacion.html" target="_blank"
-                            class="boton">Informacion</a></div>
-
-                </div>
-
+        <div class="container">
+            <div class="d-flex">
+                <form class="row my-5 border bg-color-2 rounded">
+                    <div class="col-md-6 mt-5 border-dark">
+                        <label for="nombre-usuario" class="form-label">Nombre</label>
+                        <input type="nombre" class="form-control" id="nombre-usuario" required>
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <label for="nombre-email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="nombre-email" required>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <label for="nombre-direccion" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="nombre-direccion" required>
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <label for="nombre-ciudad" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="nombre-ciudad" required>
+                    </div>
+                    <div class="col-md-6 mt-5 d-lg-flex justify-content-around text-center">
+                        <div>
+                            <textarea name="" id="" cols="35" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5 d-lg-flex justify-content-around text-center">
+                        <button type="submit" class="boton">Enviar</button>
+                    </div>
+                </form>
             </div>
-        </section>
-
-
+        </div>
     </main>
 
 
@@ -92,7 +85,7 @@
         <div class="row">
 
             <div class="d-flex flex-column my-3 align-items-center col-lg-3">
-                <img src="./assets/Img/logo.jpg" alt="" class="w-25 rounded-circle my-3">
+                <img src="./assets/Img/logo.jpg" alt="Colibri multicolor" class="w-25 rounded-circle my-3">
                 <p class="mt-4">Esencia de Vida ® 2022 </p>
                 <p class="mt-4">Todos los derechos reservados</p>
             </div>

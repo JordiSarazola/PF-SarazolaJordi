@@ -4,23 +4,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.productos .caja {
-  background-color: rgba(81, 189, 153, 0.527);
-  border: 3px black transparent;
-  border-radius: 10px;
-  margin: 10px 1px;
-  width: 300px;
-  padding: 10px;
-  justify-items: center;
-}
-.productos .caja img {
-  width: 250px;
-  height: 200px;
+.productos div {
+  text-align: center;
 }
 
 .texto-destacado {
-  color: rgb(96, 191, 194);
-  font-size: 1.5rem;
+  color: rgb(28, 133, 160);
+  font-size: 1.3rem;
   font-weight: 600;
   font-family: "Montserrat";
 }
@@ -86,6 +76,20 @@
 .boton:hover {
   color: red;
   background-color: white;
+}
+
+.card_productos {
+  background-color: rgba(81, 189, 153, 0.527);
+  border: 3px black transparent;
+  border-radius: 10px;
+  margin: 10px 1px;
+  width: 300px;
+  padding: 10px;
+  justify-items: center;
+}
+.card_productos img {
+  width: 250px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=styles.css.map */
