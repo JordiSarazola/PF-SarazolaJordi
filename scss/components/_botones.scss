@@ -1,0 +1,12 @@
+.boton {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: 'lato';
+    transition-duration: 0.5s;
+    &:hover { color: red;
+    background-color: white;}
+}

@@ -1,0 +1,19 @@
+@import "./utils/variables";
+
+@import "./base/reset";
+@import "./base/typo";
+
+@import "./pages/contacto";
+@import "./pages/productos";
+@import "./pages/informacion";
+@import "./pages/nosotros";
+@import "./pages/index"; 
+
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
+
+@import "./components/botones";
+@import "./components/card";
+
+
+

@@ -1,0 +1,19 @@
+.productos{ display: flex;
+    margin: 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .caja{
+        background-color: rgba(81, 189, 153, 0.527);
+        border: 3px black transparent;
+        border-radius: 10px;
+        margin: 10px 1px;
+        width: 300px;
+        padding: 10px;
+        justify-items: center;
+        img{ width:250px;
+        height: 200px;}
+        
+        
+        
+    }
+}

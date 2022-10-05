@@ -1,0 +1,30 @@
+.fot {
+    font-family: 'Montserrat';
+    background-color: rgb(226, 189, 128);
+    
+
+    i {
+        font-size: 3rem;
+        margin-top: 50px;
+    }
+
+    h4 {
+        color: black;
+    }
+
+    p {
+        color: black;
+        font-size: 1.2rem;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0px;
+
+        li {
+            padding: 10px;
+            color: black;
+            font-size: 1.2rem;
+        }
+    }
+}
