@@ -1,8 +1,9 @@
-img {object-fit: cover;}
-
-
 .form {
   background-color: rgba(206, 169, 110, 0.644);
+}
+
+.ubicacion_mapa {
+  width: 85vw;
 }
 
 .productos {
@@ -51,6 +52,7 @@ img {object-fit: cover;}
 .fot i {
   font-size: 3rem;
   margin-top: 50px;
+  text-decoration-color: black;
 }
 .fot h4 {
   color: black;
