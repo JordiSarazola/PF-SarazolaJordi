@@ -39,6 +39,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
+                    <li><img src="/assets/Img/211707_cart_icon.svg" alt="" id="btn-carrito" class="carrito"></li>
 
                 </ul>
             </nav>
@@ -125,11 +126,38 @@
         </div>
 
     </footer>
+    <div class="carrito-style oculto" id="carrito">
+        <div class="container">
+            <div>
+                <h2> Carrito compras</h2>
+                <img id="button-cancel" src="../assets/Img/cancel.svg" alt="">
+            </div>
+            <ul id="lista_carrito" class="prod-carrito p-0 m-0">
+              
+            </ul>
+        </div>
+        
+    
+    </div>
+    
+    <script>
+        window.addEventListener("load", function(event) {
+           let boton_carrito = document.getElementById("btn-carrito")
+           let carrito = document.getElementById("carrito")
+           let cancel = document.getElementById("button-cancel")
+           boton_carrito.addEventListener("click", function(event) {
+
+               carrito.classList.toggle("oculto")
+           })
+           cancel.addEventListener("click", function(event) {
+
+carrito.classList.toggle("oculto")
+})
+       });
+   </script>
 
 
-
-
-
+    <script src="../js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>

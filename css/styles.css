@@ -6,6 +6,56 @@
   width: 85vw;
 }
 
+.carrito {
+  height: 40px;
+  width: 50px;
+}
+
+.carrito-style{
+  width: 25vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: all .4s ease;
+  background-color: rgb(120, 120, 233);
+  list-style: none;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.carrito-style.oculto{
+  right: -25vw;
+
+}
+#button-cancel{
+  width: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.prod-carrito {
+ list-style: none;
+}
+
+.boton-carrito {
+
+  background-color: red;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 10px;
+  width: fit-content;
+
+}
+.img-carrito {
+
+  aspect-ratio: 1/1;
+    object-fit: cover;
+  
+}
+
+
+
 .productos {
   display: flex;
   margin: 5%;
